@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Basic HTML Form Elements</h1>
+  <form action="test.php" method="get">
+    <fieldset>  
+      <legend>Personal Information</legend>
+    <label for="name">Name: </label>
+    <input type="text" id="name" required>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Contact & Security</legend>
+      <label for="email">Email: </label>
+      <input type="email" id="email" required>
+      <br> <br>
+      <label for="pass">Password: </label>
+      <input type="password"  id="pass" required>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Preferences</legend>
+      <label for="color">Favorite Color: </label>
+      <input type="color" id="color">
+
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Range & Options</legend>
+      <label for="vol">Volume (Range 0-100): </label>
+      <input type="range" min="0" max="100" name="" id="vol">
+      <br><br>
+      <label>Select your favorite pet: </label>
+      <br>
+        <input  type="radio" id="Dog" name="pet" value="Dog">
+        <label for="Dog">Dog</label>
+        <br>
+        <input  type="radio" id="Cat" name="pet" value="Cat">
+        <label for="Cat">Cat</label>
+        <br>
+        <input  type="radio" id="Bird" name="pet" value="Bird">
+        <label for="Bird">Bird</label>
+        <br><br>
+        <legend>Interests (Check all that apply): </legend>
+        <input type="checkbox" name="Coding" id="Coding">
+        <label for="Coding">Coding</label>
+        <br>
+        <input type="checkbox" name="Music" id="Music">
+        <label for="Music">Music</label>
+        <br>
+        <input type="checkbox" name="Travel" id="Travel" checked>
+        <label for="Travel">Travel</label>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>Selection</legend>
+      <label for="Country">Choose a Country: </label>
+      <select name="Country" id="Country">
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Egypt">Egypt</option>
+      </select>
+
+    </fieldset>
+    
+    
+
+
+
+
+
+
+
+
+
+
+  </form>
+
+
+
+</body>
+</html>

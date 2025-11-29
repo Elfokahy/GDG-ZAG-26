@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="test.php" method="get">
+<fieldset>
+  <legend>Comments</legend>
+  <label for="Comment">Your Comments : </label> <br>
+  <textarea name="Comment" id="Comment" rows="5" cols="40"></textarea>
+</fieldset>
+<hr>
+<fieldset>
+  <legend>File Upload</legend>
+  <label>Upload a File:</label>
+  <input type="file">
+</fieldset>
+<hr>
+<fieldset>
+  <legend>Specialized Text Inputs</legend>
+  <label for="Search">Search this site: </label>
+  <input type="search" id="Search">
+  <br><br>
+  <label for="URL">Your Website URL:</label>
+  <input type="url" name="URL" id="URL" placeholder="https://example.com">
+</fieldset>
+<hr>
+<fieldset>
+  <legend>Date & Time</legend>
+  <label for="Date">Date: </label>
+  <input type="date" id="Date">
+  <br><br>
+  <label for="Month">Month: </label>
+  <input type="month" name="Month" id="Month">
+  <br><br>
+  <label for="Time">Time: </label>
+  <input type="time" name="Time" id="Time">
+</fieldset>
+<hr>
+<fieldset>
+  <legend>Datalist (Suggestions)</legend>
+  <label for="Datalist">Choose a Browser (with Suggestions): </label>
+  <input type="text" id="Datalist" name="Browser" list="Browsers">
+  <datalist id="Browsers">
+    <option value="Chrome"></option>
+    <option value="Brave"></option>
+    <option value="Edge"></option>
+    <option value="FireFox"></option>
+  </datalist>
+</fieldset>
+<hr>
+<input type="submit" name="Submit" value="Submit Form">
+<input type="reset" name="Reset" value="Clear Form">
+
+
+
+
+
+
+  </form>
+</body>
+</html>
