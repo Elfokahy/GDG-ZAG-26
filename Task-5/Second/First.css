@@ -1,0 +1,25 @@
+div {
+    width: 300px;
+    height: 60px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+div:nth-of-type(1) {
+    background: #e8e8e8;
+}
+
+
+div:nth-of-type(2) {
+    background: red;
+}
+
+
+div:nth-of-type(3) {
+    background: #e8e8e8;
+}

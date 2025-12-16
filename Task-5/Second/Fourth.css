@@ -1,0 +1,56 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    counter-reset: product-counter;
+}
+main{
+  background-color: white;
+}
+p {
+    position: relative;
+    width: 600px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    counter-increment: product-counter;
+    padding-left: 55px; 
+}
+
+p::before {
+    content: counter(product-counter);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background-color: #fc6100;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #e40045;
+    z-index: 1;
+}

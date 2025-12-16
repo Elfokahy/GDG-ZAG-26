@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display' , serif;
+}
+
+.task1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.task1 img {
+    width: 250px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.task2 {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.rect {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+
+.rect1 { background: #af3838; }
+.rect2 { background: #2fad26; box-shadow: 4px 4px 0 #666;}
+.rect3 { background: #2743c7; }
+.rect4 { background: #ffe600; color: #000; }
+
+.task3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px 0;
+}
+
+.sq {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.red { background: #b40000; top: 0; left: 0; }
+.green { background: #00c4a5; top: 20px; left: 20px; }
+.purple { background: #7e1ad8; top: 40px; left: 40px; }
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 18px;
+    box-shadow: 1px 1px 0 #666;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background: #f4f4f4;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #fafafa;
+}
