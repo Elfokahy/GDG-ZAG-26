@@ -1,0 +1,52 @@
+body {
+    background: #002339;
+    font-family: Arial;
+    color: white;
+}
+
+.container {
+    margin: 100px auto;
+    width: 400px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 span {
+    color: #00ff88;
+    border-bottom: 3px solid #00ff88;
+}
+
+.display {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.display input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 18px;
+}
+
+.display span {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button {
+    background: #00ff88;
+    color: black;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

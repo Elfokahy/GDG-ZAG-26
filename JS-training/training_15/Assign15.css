@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #ff4a17;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --btn-bg: #333333;
+    --btn-text: #ffffff;
+}
+
+.dark-theme {
+    --bg-color: #080808;
+    --text-color: #ffffff;
+    --btn-bg: #ffffff;
+    --btn-text: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.5s, color 0.5s;  
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+#theme-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8%;
+    min-height: 85vh;
+}
+
+.content h1 {
+    font-size: 60px;
+}
+
+.content h1 span {
+    color: var(--primary-color);
+}
+
+.content p {
+    margin: 20px 0 40px;
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.image-box {
+    position: relative;
+    width: 45%;
+}
+
+.shape {
+    width: 100%;
+}
+
+.girl {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

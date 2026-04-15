@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page Design</title>
+    <link rel="stylesheet" href="Assign26.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="product-card">
+        <div class="image-section">
+            <img src="image1.png" id="mainImg" alt="Product Image">
+            
+            <div class="dots">
+                <span class="dot active" onclick="changeImage('image1.png', this)"></span>
+                <span class="dot" onclick="changeImage('image2.png', this)"></span>
+                <span class="dot" onclick="changeImage('image3.png', this)"></span>
+            </div>
+        </div>
+
+        <div class="details-section">
+            <h2>Casual T Shirt</h2>
+            <p class="price">$15.00 <span>30% OFF</span></p>
+            <p class="desc">Wrangler is an American manufacturer of jeans and other clothing items, particularly workwear.</p>
+            
+            <div class="options">
+                <p>Size: <span>S M L XL XXL</span></p>
+                <div class="colors">
+                    Color: <span class="red"></span><span class="green"></span><span class="blue"></span><span class="pink"></span>
+                </div>
+                <div class="quantity">Quantity: <input type="number" value="1"></div>
+            </div>
+
+            <button class="buy-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+<script src="Assign26.js"></script>
+</body>
+</html>
